@@ -1,20 +1,21 @@
 {
-  "name": "express-app",
+  "name": "mern-tutorial",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Goal setterapp for youtube tutorial ",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hamzah-dayoub/express-app.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Hamzah Dayoub",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hamzah-dayoub/express-app/issues"
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
   },
-  "homepage": "https://github.com/hamzah-dayoub/express-app#readme"
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
